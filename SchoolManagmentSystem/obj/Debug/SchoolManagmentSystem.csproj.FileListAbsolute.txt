@@ -1,0 +1,13 @@
+E:\C#\SchoolManagmentSystem\SchoolManagmentSystem\bin\Debug\SchoolManagmentSystem.exe.config
+E:\C#\SchoolManagmentSystem\SchoolManagmentSystem\bin\Debug\SchoolManagmentSystem.exe
+E:\C#\SchoolManagmentSystem\SchoolManagmentSystem\bin\Debug\SchoolManagmentSystem.pdb
+E:\C#\SchoolManagmentSystem\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.csproj.AssemblyReference.cache
+E:\C#\SchoolManagmentSystem\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.LoadingScreen.resources
+E:\C#\SchoolManagmentSystem\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.Login.resources
+E:\C#\SchoolManagmentSystem\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.Properties.Resources.resources
+E:\C#\SchoolManagmentSystem\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.csproj.GenerateResource.cache
+E:\C#\SchoolManagmentSystem\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.csproj.CoreCompileInputs.cache
+E:\C#\SchoolManagmentSystem\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.exe
+E:\C#\SchoolManagmentSystem\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.pdb
+E:\C#\SchoolManagmentSystem\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.MainMenu.resources
+E:\C#\SchoolManagmentSystem\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.Students.resources
