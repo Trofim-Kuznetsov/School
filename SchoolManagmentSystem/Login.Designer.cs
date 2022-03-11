@@ -31,7 +31,6 @@ namespace SchoolManagmentSystem
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.name_label = new System.Windows.Forms.Label();
             this.login_label = new System.Windows.Forms.Label();
             this.username_label = new System.Windows.Forms.Label();
@@ -41,14 +40,12 @@ namespace SchoolManagmentSystem
             this.enter_button = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.panel1.Controls.Add(this.name_label);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -56,22 +53,11 @@ namespace SchoolManagmentSystem
             this.panel1.Size = new System.Drawing.Size(700, 79);
             this.panel1.TabIndex = 0;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(668, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(32, 29);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
-            // 
             // name_label
             // 
             this.name_label.AutoSize = true;
             this.name_label.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.name_label.ForeColor = System.Drawing.Color.White;
             this.name_label.Location = new System.Drawing.Point(164, 27);
             this.name_label.Name = "name_label";
             this.name_label.Size = new System.Drawing.Size(351, 23);
@@ -124,8 +110,8 @@ namespace SchoolManagmentSystem
             // 
             // enter_button
             // 
-            this.enter_button.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.enter_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.enter_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.enter_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.enter_button.Location = new System.Drawing.Point(500, 278);
             this.enter_button.Name = "enter_button";
             this.enter_button.Size = new System.Drawing.Size(107, 43);
@@ -135,7 +121,7 @@ namespace SchoolManagmentSystem
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(62, 112);
             this.pictureBox1.Name = "pictureBox1";
@@ -158,14 +144,12 @@ namespace SchoolManagmentSystem
             this.Controls.Add(this.login_label);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -183,6 +167,5 @@ namespace SchoolManagmentSystem
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button enter_button;
-        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
