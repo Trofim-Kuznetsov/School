@@ -51,7 +51,7 @@ namespace SchoolManagmentSystem
                     cmd.Parameters.AddWithValue("@SFees", fees_tb.Text);
                     cmd.Parameters.AddWithValue("@SAdd", address_rtb.Text);
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Student Added");
+                    MessageBox.Show("Student successfully added");
                     Con.Close();
                     DisplayStudent();
                 }
@@ -64,19 +64,32 @@ namespace SchoolManagmentSystem
 
         
 
-        private void Students_Load(object sender, EventArgs e)
-        {
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "schoolDbDataSet.StudentTbl". При необходимости она может быть перемещена или удалена.
-            this.studentTblTableAdapter.Fill(this.schoolDbDataSet.StudentTbl);
-
-        }
+        //private void Students_Load(object sender, EventArgs e)
+        //{
+        ////    // TODO: данная строка кода позволяет загрузить данные в таблицу "schoolDbDataSet.StudentTbl". При необходимости она может быть перемещена или удалена.
+        //    this.studentTblTableAdapter.Fill(this.schoolDbDataSet.StudentTbl);
+        //}
 
         int Key = 0;
 
-        private void StudentsDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
+       /* private void StudentsDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            name_tb.Text = StudentsDGV.SelectedRows[0].Cells[1].Value.ToString();
+            gender_cb.SelectedItem = StudentsDGV.SelectedRows[0].Cells[2].Value.ToString();
+            dateTimePicker.Text = StudentsDGV.SelectedRows[0].Cells[3].Value.ToString();
+            class_cb.SelectedItem = StudentsDGV.SelectedRows[0].Cells[4].Value.ToString();
+            address_rtb.Text = StudentsDGV.SelectedRows[0].Cells[5].Value.ToString();
+            fees_tb.Text = StudentsDGV.SelectedRows[0].Cells[6].Value.ToString();
+            if (name_tb.Text == "")
+            {
+                Key = 0;
+            }
+            else
+            {
+                Key = Convert.ToInt32(StudentsDGV.SelectedRows[0].Cells[0].Value.ToString());
+            }
 
-        }
+        } */
 
         private void delete_button_Click(object sender, EventArgs e)
         {
@@ -91,7 +104,7 @@ namespace SchoolManagmentSystem
                     SqlCommand cmd = new SqlCommand("delete from studentTbl where StId=@StKey");
                     cmd.Parameters.AddWithValue("@StKey", Key);
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Student deleted");
+                    MessageBox.Show("Student successfully deleted");
                     DisplayStudent();
                 }
                 catch(Exception Ex)
@@ -106,6 +119,11 @@ namespace SchoolManagmentSystem
 
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MainMenu Obj = new MainMenu();
+            Obj.Show();
+            this.Hide();
+        }
     }
 }

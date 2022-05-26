@@ -35,8 +35,8 @@ namespace SchoolManagmentSystem
             this.login_label = new System.Windows.Forms.Label();
             this.username_label = new System.Windows.Forms.Label();
             this.password_label = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.UnameTb = new System.Windows.Forms.TextBox();
+            this.PasswordTb = new System.Windows.Forms.TextBox();
             this.enter_button = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
@@ -94,19 +94,20 @@ namespace SchoolManagmentSystem
             this.password_label.TabIndex = 2;
             this.password_label.Text = "Password";
             // 
-            // textBox1
+            // UnameTb
             // 
-            this.textBox1.Location = new System.Drawing.Point(465, 175);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(177, 26);
-            this.textBox1.TabIndex = 4;
+            this.UnameTb.Location = new System.Drawing.Point(465, 175);
+            this.UnameTb.Name = "UnameTb";
+            this.UnameTb.Size = new System.Drawing.Size(177, 26);
+            this.UnameTb.TabIndex = 4;
             // 
-            // textBox2
+            // PasswordTb
             // 
-            this.textBox2.Location = new System.Drawing.Point(465, 231);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(177, 26);
-            this.textBox2.TabIndex = 5;
+            this.PasswordTb.Location = new System.Drawing.Point(465, 231);
+            this.PasswordTb.Name = "PasswordTb";
+            this.PasswordTb.PasswordChar = '*';
+            this.PasswordTb.Size = new System.Drawing.Size(177, 26);
+            this.PasswordTb.TabIndex = 5;
             // 
             // enter_button
             // 
@@ -118,6 +119,7 @@ namespace SchoolManagmentSystem
             this.enter_button.TabIndex = 6;
             this.enter_button.Text = "Enter";
             this.enter_button.UseVisualStyleBackColor = false;
+            this.enter_button.Click += new System.EventHandler(this.enter_button_Click);
             // 
             // pictureBox1
             // 
@@ -137,8 +139,8 @@ namespace SchoolManagmentSystem
             this.ClientSize = new System.Drawing.Size(700, 373);
             this.Controls.Add(this.enter_button);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.PasswordTb);
+            this.Controls.Add(this.UnameTb);
             this.Controls.Add(this.password_label);
             this.Controls.Add(this.username_label);
             this.Controls.Add(this.login_label);
@@ -164,8 +166,8 @@ namespace SchoolManagmentSystem
         private System.Windows.Forms.Label username_label;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label password_label;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox UnameTb;
+        private System.Windows.Forms.TextBox PasswordTb;
         private System.Windows.Forms.Button enter_button;
     }
 }

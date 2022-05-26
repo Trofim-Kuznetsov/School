@@ -27,3 +27,22 @@ C:\Users\empty\source\repos\School\SchoolManagmentSystem\obj\Debug\SchoolManagme
 C:\Users\empty\source\repos\School\SchoolManagmentSystem\bin\Debug\SchoolDb.mdf
 C:\Users\empty\source\repos\School\SchoolManagmentSystem\bin\Debug\SchoolDb_log.ldf
 C:\Users\empty\source\repos\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.Teachers.resources
+E:\C#\git hub\School\SchoolManagmentSystem\bin\Debug\SchoolDb.mdf
+E:\C#\git hub\School\SchoolManagmentSystem\bin\Debug\SchoolDb_log.ldf
+E:\C#\git hub\School\SchoolManagmentSystem\bin\Debug\SchoolManagmentSystem.exe.config
+E:\C#\git hub\School\SchoolManagmentSystem\bin\Debug\SchoolManagmentSystem.exe
+E:\C#\git hub\School\SchoolManagmentSystem\bin\Debug\SchoolManagmentSystem.pdb
+E:\C#\git hub\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.csproj.AssemblyReference.cache
+E:\C#\git hub\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.LoadingScreen.resources
+E:\C#\git hub\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.Login.resources
+E:\C#\git hub\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.MainMenu.resources
+E:\C#\git hub\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.Properties.Resources.resources
+E:\C#\git hub\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.Students.resources
+E:\C#\git hub\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.Teachers.resources
+E:\C#\git hub\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.csproj.GenerateResource.cache
+E:\C#\git hub\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.csproj.CoreCompileInputs.cache
+E:\C#\git hub\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.exe
+E:\C#\git hub\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.pdb
+E:\C#\git hub\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.Dashboard.resources
+E:\C#\git hub\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.Events.resources
+E:\C#\git hub\School\SchoolManagmentSystem\obj\Debug\SchoolManagmentSystem.Fees.resources

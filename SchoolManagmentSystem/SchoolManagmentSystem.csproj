@@ -61,6 +61,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Events.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Events.Designer.cs">
+      <DependentUpon>Events.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fees.Designer.cs">
+      <DependentUpon>Fees.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoadingScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +104,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SchoolDbDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="SchoolDbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SchoolDbDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Students.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +121,15 @@
     <Compile Include="Teachers.Designer.cs">
       <DependentUpon>Teachers.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Events.resx">
+      <DependentUpon>Events.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fees.resx">
+      <DependentUpon>Fees.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoadingScreen.resx">
       <DependentUpon>LoadingScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,6 +174,17 @@
     </None>
     <None Include="SchoolDbDataSet.xss">
       <DependentUpon>SchoolDbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SchoolDbDataSet1.xsc">
+      <DependentUpon>SchoolDbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SchoolDbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SchoolDbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SchoolDbDataSet1.xss">
+      <DependentUpon>SchoolDbDataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

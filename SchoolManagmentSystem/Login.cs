@@ -16,5 +16,25 @@ namespace SchoolManagmentSystem
         {
             InitializeComponent();
         }
+
+        private void enter_button_Click(object sender, EventArgs e)
+        {
+            if (UnameTb.Text == "" || PasswordTb.Text == "")
+            {
+                MessageBox.Show("Please, enter username and password");
+            }
+            else if(UnameTb.Text == "Admin" & PasswordTb.Text == "Admin")
+            {
+                MainMenu Obj = new MainMenu();
+                Obj.Show();
+            }
+            else
+            {
+                MessageBox.Show("Wrong Username or Password");
+                UnameTb.Text = "";
+                PasswordTb.Text = "";
+
+            }
+        }
     }
 }

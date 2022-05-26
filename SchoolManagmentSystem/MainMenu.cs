@@ -16,5 +16,41 @@ namespace SchoolManagmentSystem
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Students Obj = new Students();
+            Obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Teachers Obj = new Teachers();
+            Obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Dashboard Obj = new Dashboard();
+            Obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+          
+            Events Obj = new Events();
+            Obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Fees Obj = new Fees();
+            Obj.Show();
+            this.Hide();
+        }
     }
 }
